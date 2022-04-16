@@ -7,6 +7,8 @@ import store from "./store";
 
 import kjRequest from "./service";
 
+//修改
+
 const app = createApp(App);
 app.use(ElementPlus);
 app.use(store);

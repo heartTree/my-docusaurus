@@ -5,6 +5,8 @@ import ElementPlus from "element-plus";
 import "element-plus/dist/index.css";
 import store from "./store";
 
+import "normalize.css";
+import "./assets/css/index.less";
 import kjRequest from "./service";
 
 //修改

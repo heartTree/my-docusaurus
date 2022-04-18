@@ -25,4 +25,5 @@ module.exports = defineConfig({
       .set("@", path.resolve(__dirname, "src"))
       .set("components", "@/components");
   },
+  lintOnSave: false, //关闭eslint检查
 });

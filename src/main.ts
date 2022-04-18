@@ -17,20 +17,20 @@ app.use(store);
 app.use(router);
 app.mount("#app");
 
-interface DataType {
-  data: any;
-  returnCode: string;
-  success: boolean;
-}
+// interface DataType {
+//   data: any;
+//   returnCode: string;
+//   success: boolean;
+// }
 
-kjRequest
-  .get<DataType>({
-    url: "/home/multidata",
-    method: "GET",
-    // showLoading: false,
-  })
-  .then((res) => {
-    console.log(res.data);
-    console.log(res.returnCode);
-    console.log(res.success);
-  });
+// kjRequest
+//   .get<DataType>({
+//     url: "/home/multidata",
+//     method: "GET",
+//     // showLoading: false,
+//   })
+//   .then((res) => {
+//     console.log(res.data);
+//     console.log(res.returnCode);
+//     console.log(res.success);
+//   });
